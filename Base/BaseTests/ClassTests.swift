@@ -11,9 +11,11 @@ import XCTest
 
 class ClassTests: XCTestCase {
     func testClass() {
-        let shape = Shape()
-        shape.numberOfSides = 7
-        print(shape.simpleDescription())
+        print("===================================")
+        let test = Square(sideLength: 5.2, name: "my test square")
+        print(test.area())
+        print(test.simpleDescription())
+        print("===================================")
         
     }
     
