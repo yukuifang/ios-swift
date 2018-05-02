@@ -10,7 +10,7 @@ import XCTest
 @testable import Base
 
 
-class BaseTests: XCTestCase {
+class MethodTests: XCTestCase {
     func testMethod() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
