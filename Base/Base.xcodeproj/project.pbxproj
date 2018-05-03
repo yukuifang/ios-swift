@@ -16,6 +16,8 @@
 		B1818EEF20999403000F96E2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1818EEE20999403000F96E2 /* Method.swift */; };
 		B1818EF12099AFB5000F96E2 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1818EF02099AFB5000F96E2 /* Class.swift */; };
 		B1818EF32099B021000F96E2 /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1818EF22099B021000F96E2 /* ClassTests.swift */; };
+		B1AB376C209AA7B700ABB5B2 /* EnumStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */; };
+		B1AB376E209AA8B900ABB5B2 /* EnumStructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		B1818EEE20999403000F96E2 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		B1818EF02099AFB5000F96E2 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		B1818EF22099B021000F96E2 /* ClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
+		B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnumStruct.swift; path = Base/EnumStruct.swift; sourceTree = SOURCE_ROOT; };
+		B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStructTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				B1818EF22099B021000F96E2 /* ClassTests.swift */,
 				B1818EE2209993A6000F96E2 /* MethodTests.swift */,
+				B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */,
 				B1818EE4209993A6000F96E2 /* Info.plist */,
 			);
 			path = BaseTests;
@@ -109,6 +114,7 @@
 			children = (
 				B1818EEE20999403000F96E2 /* Method.swift */,
 				B1818EF02099AFB5000F96E2 /* Class.swift */,
+				B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 				B1818ED0209993A6000F96E2 /* ViewController.swift in Sources */,
 				B1818ECE209993A6000F96E2 /* AppDelegate.swift in Sources */,
 				B1818EEF20999403000F96E2 /* Method.swift in Sources */,
+				B1AB376C209AA7B700ABB5B2 /* EnumStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +236,7 @@
 			files = (
 				B1818EF32099B021000F96E2 /* ClassTests.swift in Sources */,
 				B1818EE3209993A6000F96E2 /* MethodTests.swift in Sources */,
+				B1AB376E209AA8B900ABB5B2 /* EnumStructTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
