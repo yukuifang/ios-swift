@@ -24,6 +24,8 @@
 		B1AB3776209ABC5100ABB5B2 /* ErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3775209ABC5100ABB5B2 /* ErrorTest.swift */; };
 		B1AB3778209AE17500ABB5B2 /* Genericity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3777209AE17500ABB5B2 /* Genericity.swift */; };
 		B1AB377A209AE46A00ABB5B2 /* GenericityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3779209AE46A00ABB5B2 /* GenericityTest.swift */; };
+		B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377B209B06FE00ABB5B2 /* ARC.swift */; };
+		B1AB377E209B074B00ABB5B2 /* ARCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377D209B074B00ABB5B2 /* ARCTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		B1AB3775209ABC5100ABB5B2 /* ErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTest.swift; sourceTree = "<group>"; };
 		B1AB3777209AE17500ABB5B2 /* Genericity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genericity.swift; sourceTree = "<group>"; };
 		B1AB3779209AE46A00ABB5B2 /* GenericityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericityTest.swift; sourceTree = "<group>"; };
+		B1AB377B209B06FE00ABB5B2 /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
+		B1AB377D209B074B00ABB5B2 /* ARCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				B1AB3771209AB62600ABB5B2 /* ProtocolTest.swift */,
 				B1AB3775209ABC5100ABB5B2 /* ErrorTest.swift */,
 				B1AB3779209AE46A00ABB5B2 /* GenericityTest.swift */,
+				B1AB377D209B074B00ABB5B2 /* ARCTest.swift */,
 				B1818EE4209993A6000F96E2 /* Info.plist */,
 			);
 			path = BaseTests;
@@ -133,6 +138,7 @@
 				B1AB376F209AB5A900ABB5B2 /* Protocol.swift */,
 				B1AB3773209ABC4500ABB5B2 /* Error.swift */,
 				B1AB3777209AE17500ABB5B2 /* Genericity.swift */,
+				B1AB377B209B06FE00ABB5B2 /* ARC.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */,
 				B1818EF12099AFB5000F96E2 /* Class.swift in Sources */,
 				B1818ED0209993A6000F96E2 /* ViewController.swift in Sources */,
 				B1818ECE209993A6000F96E2 /* AppDelegate.swift in Sources */,
@@ -259,6 +266,7 @@
 				B1AB3776209ABC5100ABB5B2 /* ErrorTest.swift in Sources */,
 				B1818EF32099B021000F96E2 /* ClassTests.swift in Sources */,
 				B1818EE3209993A6000F96E2 /* MethodTests.swift in Sources */,
+				B1AB377E209B074B00ABB5B2 /* ARCTest.swift in Sources */,
 				B1AB376E209AA8B900ABB5B2 /* EnumStructTest.swift in Sources */,
 				B1AB3772209AB62600ABB5B2 /* ProtocolTest.swift in Sources */,
 			);
