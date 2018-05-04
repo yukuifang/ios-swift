@@ -144,6 +144,66 @@ enum OnOffSwitch: Togglable {
     }
 }
 
+//初始化器要求
+//协议可以要求遵循协议的类型实现指定的初始化器。和一般的初始化器一样，只用将初始化器写在协议的定义当中，只是不用写大括号也就是初始化器的实体：
+//protocol SomeProtocol {
+//    init(someParameter: Int)
+//}
+
+
+//协议初始化器要求的类实现
+//你可以通过实现指定初始化器或便捷初始化器来使遵循该协议的类满足协议的初始化器要求。在这两种情况下，你都必须使用 required 关键字修饰初始化器的实现：
+
+
+//class SomeClass: SomeProtocol {
+//    required init(someParameter: Int) {
+//        // initializer implementation goes here
+//    }
+//}
+
+
+/**
+如果一个子类重写了父类指定的初始化器，并且遵循协议实现了初始化器要求，那么就要为这个初始化器的实现添加 required 和 override 两个修饰符：
+
+
+protocol SomeProtocol {
+    init()
+}
+
+class SomeSuperClass {
+    init() {
+        // initializer implementation goes here
+    }
+}
+
+class SomeSubClass: SomeSuperClass, SomeProtocol {
+    // "required" from SomeProtocol conformance; "override" from SomeSuperClass
+    required override init() {
+        // initializer implementation goes here
+    }
+}
+ **/
+
+/**
+将协议作为类型
+实际上协议自身并不实现功能。不过你创建的任意协议都可以变为一个功能完备的类型在代码中使用。
+
+由于它是一个类型，你可以在很多其他类型可以使用的地方使用协议，包括：
+
+在函数、方法或者初始化器里作为形式参数类型或者返回类型；
+作为常量、变量或者属性的类型；
+作为数组、字典或者其他存储器的元素的类型。
+ 
+ 注意
+ 
+ 由于协议是类型，要开头大写（比如说 FullyNamed 和 RandomNumberGenerator ）来匹配 Swift 里其他类型名称格式（比如说 Int 、 String 还有 Double ）。
+ 
+ **/
+
+
+
+
+
 
 
 
