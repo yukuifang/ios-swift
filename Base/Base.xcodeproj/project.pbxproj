@@ -18,7 +18,7 @@
 		B1818EF32099B021000F96E2 /* ClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1818EF22099B021000F96E2 /* ClassTests.swift */; };
 		B1AB376C209AA7B700ABB5B2 /* EnumStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */; };
 		B1AB376E209AA8B900ABB5B2 /* EnumStructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */; };
-		B1AB3770209AB5A900ABB5B2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376F209AB5A900ABB5B2 /* Protocol.swift */; };
+		B1AB3770209AB5A900ABB5B2 /* Protocol_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB376F209AB5A900ABB5B2 /* Protocol_1.swift */; };
 		B1AB3772209AB62600ABB5B2 /* ProtocolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3771209AB62600ABB5B2 /* ProtocolTest.swift */; };
 		B1AB3774209ABC4500ABB5B2 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3773209ABC4500ABB5B2 /* Error.swift */; };
 		B1AB3776209ABC5100ABB5B2 /* ErrorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3775209ABC5100ABB5B2 /* ErrorTest.swift */; };
@@ -26,6 +26,7 @@
 		B1AB377A209AE46A00ABB5B2 /* GenericityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB3779209AE46A00ABB5B2 /* GenericityTest.swift */; };
 		B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377B209B06FE00ABB5B2 /* ARC.swift */; };
 		B1AB377E209B074B00ABB5B2 /* ARCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377D209B074B00ABB5B2 /* ARCTest.swift */; };
+		B1DDC611209C346D00FA54C3 /* Protocol_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC610209C346D00FA54C3 /* Protocol_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,7 @@
 		B1818EF22099B021000F96E2 /* ClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTests.swift; sourceTree = "<group>"; };
 		B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EnumStruct.swift; path = Base/EnumStruct.swift; sourceTree = SOURCE_ROOT; };
 		B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStructTest.swift; sourceTree = "<group>"; };
-		B1AB376F209AB5A900ABB5B2 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		B1AB376F209AB5A900ABB5B2 /* Protocol_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_1.swift; sourceTree = "<group>"; };
 		B1AB3771209AB62600ABB5B2 /* ProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTest.swift; sourceTree = "<group>"; };
 		B1AB3773209ABC4500ABB5B2 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		B1AB3775209ABC5100ABB5B2 /* ErrorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTest.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		B1AB3779209AE46A00ABB5B2 /* GenericityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericityTest.swift; sourceTree = "<group>"; };
 		B1AB377B209B06FE00ABB5B2 /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		B1AB377D209B074B00ABB5B2 /* ARCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCTest.swift; sourceTree = "<group>"; };
+		B1DDC610209C346D00FA54C3 /* Protocol_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +137,8 @@
 				B1818EEE20999403000F96E2 /* Method.swift */,
 				B1818EF02099AFB5000F96E2 /* Class.swift */,
 				B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */,
-				B1AB376F209AB5A900ABB5B2 /* Protocol.swift */,
+				B1AB376F209AB5A900ABB5B2 /* Protocol_1.swift */,
+				B1DDC610209C346D00FA54C3 /* Protocol_2.swift */,
 				B1AB3773209ABC4500ABB5B2 /* Error.swift */,
 				B1AB3777209AE17500ABB5B2 /* Genericity.swift */,
 				B1AB377B209B06FE00ABB5B2 /* ARC.swift */,
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1DDC611209C346D00FA54C3 /* Protocol_2.swift in Sources */,
 				B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */,
 				B1818EF12099AFB5000F96E2 /* Class.swift in Sources */,
 				B1818ED0209993A6000F96E2 /* ViewController.swift in Sources */,
@@ -254,7 +258,7 @@
 				B1AB376C209AA7B700ABB5B2 /* EnumStruct.swift in Sources */,
 				B1AB3774209ABC4500ABB5B2 /* Error.swift in Sources */,
 				B1AB3778209AE17500ABB5B2 /* Genericity.swift in Sources */,
-				B1AB3770209AB5A900ABB5B2 /* Protocol.swift in Sources */,
+				B1AB3770209AB5A900ABB5B2 /* Protocol_1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

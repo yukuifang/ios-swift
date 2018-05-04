@@ -39,4 +39,27 @@ class ProtocolTest: XCTestCase {
         
     }
     
+    func testProtocal() {
+        
+        print("===================================")
+        let john = Person(fullName: "John Appleseed")
+        print(john.fullName)
+        
+        let ncc1701 = Starship(name: "Enterprise", prefix: "USS")
+        print(ncc1701.fullName)
+        
+        let generator = LinearCongruentialGenerator()
+        print("Here's a random number: \(generator.random())")
+        // Prints "Here's a random number: 0.37464991998171"
+        print("And another one: \(generator.random())")
+        // Prints "And another one: 0.729023776863283"
+        
+        
+        var lightSwitch = OnOffSwitch.off
+        lightSwitch.toggle()
+        print(lightSwitch)
+        // lightSwitch is now equal to .on
+        print("===================================")
+    }
+    
 }
