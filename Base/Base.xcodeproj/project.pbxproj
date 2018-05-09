@@ -37,6 +37,7 @@
 		B1F0EC5A20A2DD710088777B /* HSFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC5820A2DD710088777B /* HSFootView.swift */; };
 		B1F0EC5B20A2DD710088777B /* HSFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC5920A2DD710088777B /* HSFootView.xib */; };
 		B1F0EC5D20A2DD9A0088777B /* HSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC5C20A2DD990088777B /* HSSliderView.swift */; };
+		B1F0EC6020A2FC5B0088777B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC5F20A2FC5B0088777B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		B1F0EC5820A2DD710088777B /* HSFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSFootView.swift; sourceTree = "<group>"; };
 		B1F0EC5920A2DD710088777B /* HSFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSFootView.xib; sourceTree = "<group>"; };
 		B1F0EC5C20A2DD990088777B /* HSSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSSliderView.swift; sourceTree = "<group>"; };
+		B1F0EC5F20A2FC5B0088777B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		B1818EC1209993A6000F96E2 = {
 			isa = PBXGroup;
 			children = (
+				B1F0EC5F20A2FC5B0088777B /* README.md */,
 				B1818ECC209993A6000F96E2 /* Base */,
 				B1818EE1209993A6000F96E2 /* BaseTests */,
 				B1818ECB209993A6000F96E2 /* Products */,
@@ -273,6 +276,7 @@
 				B1818ED8209993A6000F96E2 /* LaunchScreen.storyboard in Resources */,
 				B1F0EC5320A2D9430088777B /* MyImage.xib in Resources */,
 				B1818ED5209993A6000F96E2 /* Assets.xcassets in Resources */,
+				B1F0EC6020A2FC5B0088777B /* README.md in Resources */,
 				B1818ED3209993A6000F96E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
