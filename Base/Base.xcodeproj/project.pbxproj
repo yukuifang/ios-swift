@@ -125,7 +125,6 @@
 		B1818ECC209993A6000F96E2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B1F0EC4E20A2CFA20088777B /* 1.jpg */,
 				B1818EED209993D0000F96E2 /* Classes */,
 				B1818ECD209993A6000F96E2 /* AppDelegate.swift */,
 				B1818ECF209993A6000F96E2 /* ViewController.swift */,
@@ -133,13 +132,6 @@
 				B1818ED4209993A6000F96E2 /* Assets.xcassets */,
 				B1818ED6209993A6000F96E2 /* LaunchScreen.storyboard */,
 				B1818ED9209993A6000F96E2 /* Info.plist */,
-				B1F0EC5C20A2DD990088777B /* HSSliderView.swift */,
-				B1F0EC5820A2DD710088777B /* HSFootView.swift */,
-				B1F0EC5920A2DD710088777B /* HSFootView.xib */,
-				B1F0EC4A20A2C9C80088777B /* MyView.swift */,
-				B1F0EC4C20A2C9E80088777B /* MyView.xib */,
-				B1F0EC5220A2D9430088777B /* MyImage.xib */,
-				B1F0EC5620A2DD450088777B /* MyImage.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -163,6 +155,8 @@
 		B1818EED209993D0000F96E2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B1F0EC4E20A2CFA20088777B /* 1.jpg */,
+				B1F0EC5E20A2F2520088777B /* IBDesignable */,
 				B1818EEE20999403000F96E2 /* Method.swift */,
 				B1818EF02099AFB5000F96E2 /* Class.swift */,
 				B1AB376B209AA7B700ABB5B2 /* EnumStruct.swift */,
@@ -174,6 +168,20 @@
 				B1F0EC4620A2C75F0088777B /* HigherOrderFunction.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1F0EC5E20A2F2520088777B /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0EC5C20A2DD990088777B /* HSSliderView.swift */,
+				B1F0EC5820A2DD710088777B /* HSFootView.swift */,
+				B1F0EC5920A2DD710088777B /* HSFootView.xib */,
+				B1F0EC4A20A2C9C80088777B /* MyView.swift */,
+				B1F0EC4C20A2C9E80088777B /* MyView.xib */,
+				B1F0EC5220A2D9430088777B /* MyImage.xib */,
+				B1F0EC5620A2DD450088777B /* MyImage.swift */,
+			);
+			path = IBDesignable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
