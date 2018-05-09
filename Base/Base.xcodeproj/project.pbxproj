@@ -27,6 +27,16 @@
 		B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377B209B06FE00ABB5B2 /* ARC.swift */; };
 		B1AB377E209B074B00ABB5B2 /* ARCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AB377D209B074B00ABB5B2 /* ARCTest.swift */; };
 		B1DDC611209C346D00FA54C3 /* Protocol_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DDC610209C346D00FA54C3 /* Protocol_2.swift */; };
+		B1F0EC4720A2C75F0088777B /* HigherOrderFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC4620A2C75F0088777B /* HigherOrderFunction.swift */; };
+		B1F0EC4920A2C77B0088777B /* HigherOrderFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC4820A2C77B0088777B /* HigherOrderFunctionTests.swift */; };
+		B1F0EC4B20A2C9C80088777B /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC4A20A2C9C80088777B /* MyView.swift */; };
+		B1F0EC4D20A2C9E80088777B /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC4C20A2C9E80088777B /* MyView.xib */; };
+		B1F0EC4F20A2CFA30088777B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC4E20A2CFA20088777B /* 1.jpg */; };
+		B1F0EC5320A2D9430088777B /* MyImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC5220A2D9430088777B /* MyImage.xib */; };
+		B1F0EC5720A2DD450088777B /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC5620A2DD450088777B /* MyImage.swift */; };
+		B1F0EC5A20A2DD710088777B /* HSFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC5820A2DD710088777B /* HSFootView.swift */; };
+		B1F0EC5B20A2DD710088777B /* HSFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F0EC5920A2DD710088777B /* HSFootView.xib */; };
+		B1F0EC5D20A2DD9A0088777B /* HSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F0EC5C20A2DD990088777B /* HSSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,16 @@
 		B1AB377B209B06FE00ABB5B2 /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
 		B1AB377D209B074B00ABB5B2 /* ARCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCTest.swift; sourceTree = "<group>"; };
 		B1DDC610209C346D00FA54C3 /* Protocol_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol_2.swift; sourceTree = "<group>"; };
+		B1F0EC4620A2C75F0088777B /* HigherOrderFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunction.swift; sourceTree = "<group>"; };
+		B1F0EC4820A2C77B0088777B /* HigherOrderFunctionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HigherOrderFunctionTests.swift; sourceTree = "<group>"; };
+		B1F0EC4A20A2C9C80088777B /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		B1F0EC4C20A2C9E80088777B /* MyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		B1F0EC4E20A2CFA20088777B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B1F0EC5220A2D9430088777B /* MyImage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyImage.xib; sourceTree = "<group>"; };
+		B1F0EC5620A2DD450088777B /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		B1F0EC5820A2DD710088777B /* HSFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSFootView.swift; sourceTree = "<group>"; };
+		B1F0EC5920A2DD710088777B /* HSFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HSFootView.xib; sourceTree = "<group>"; };
+		B1F0EC5C20A2DD990088777B /* HSSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +125,7 @@
 		B1818ECC209993A6000F96E2 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				B1F0EC4E20A2CFA20088777B /* 1.jpg */,
 				B1818EED209993D0000F96E2 /* Classes */,
 				B1818ECD209993A6000F96E2 /* AppDelegate.swift */,
 				B1818ECF209993A6000F96E2 /* ViewController.swift */,
@@ -112,6 +133,13 @@
 				B1818ED4209993A6000F96E2 /* Assets.xcassets */,
 				B1818ED6209993A6000F96E2 /* LaunchScreen.storyboard */,
 				B1818ED9209993A6000F96E2 /* Info.plist */,
+				B1F0EC5C20A2DD990088777B /* HSSliderView.swift */,
+				B1F0EC5820A2DD710088777B /* HSFootView.swift */,
+				B1F0EC5920A2DD710088777B /* HSFootView.xib */,
+				B1F0EC4A20A2C9C80088777B /* MyView.swift */,
+				B1F0EC4C20A2C9E80088777B /* MyView.xib */,
+				B1F0EC5220A2D9430088777B /* MyImage.xib */,
+				B1F0EC5620A2DD450088777B /* MyImage.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -119,6 +147,7 @@
 		B1818EE1209993A6000F96E2 /* BaseTests */ = {
 			isa = PBXGroup;
 			children = (
+				B1F0EC4820A2C77B0088777B /* HigherOrderFunctionTests.swift */,
 				B1818EF22099B021000F96E2 /* ClassTests.swift */,
 				B1818EE2209993A6000F96E2 /* MethodTests.swift */,
 				B1AB376D209AA8B900ABB5B2 /* EnumStructTest.swift */,
@@ -142,6 +171,7 @@
 				B1AB3773209ABC4500ABB5B2 /* Error.swift */,
 				B1AB3777209AE17500ABB5B2 /* Genericity.swift */,
 				B1AB377B209B06FE00ABB5B2 /* ARC.swift */,
+				B1F0EC4620A2C75F0088777B /* HigherOrderFunction.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -229,7 +259,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F0EC5B20A2DD710088777B /* HSFootView.xib in Resources */,
+				B1F0EC4D20A2C9E80088777B /* MyView.xib in Resources */,
+				B1F0EC4F20A2CFA30088777B /* 1.jpg in Resources */,
 				B1818ED8209993A6000F96E2 /* LaunchScreen.storyboard in Resources */,
+				B1F0EC5320A2D9430088777B /* MyImage.xib in Resources */,
 				B1818ED5209993A6000F96E2 /* Assets.xcassets in Resources */,
 				B1818ED3209993A6000F96E2 /* Main.storyboard in Resources */,
 			);
@@ -249,14 +283,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F0EC4B20A2C9C80088777B /* MyView.swift in Sources */,
 				B1DDC611209C346D00FA54C3 /* Protocol_2.swift in Sources */,
 				B1AB377C209B06FE00ABB5B2 /* ARC.swift in Sources */,
+				B1F0EC5A20A2DD710088777B /* HSFootView.swift in Sources */,
 				B1818EF12099AFB5000F96E2 /* Class.swift in Sources */,
 				B1818ED0209993A6000F96E2 /* ViewController.swift in Sources */,
+				B1F0EC4720A2C75F0088777B /* HigherOrderFunction.swift in Sources */,
 				B1818ECE209993A6000F96E2 /* AppDelegate.swift in Sources */,
 				B1818EEF20999403000F96E2 /* Method.swift in Sources */,
+				B1F0EC5720A2DD450088777B /* MyImage.swift in Sources */,
 				B1AB376C209AA7B700ABB5B2 /* EnumStruct.swift in Sources */,
 				B1AB3774209ABC4500ABB5B2 /* Error.swift in Sources */,
+				B1F0EC5D20A2DD9A0088777B /* HSSliderView.swift in Sources */,
 				B1AB3778209AE17500ABB5B2 /* Genericity.swift in Sources */,
 				B1AB3770209AB5A900ABB5B2 /* Protocol_1.swift in Sources */,
 			);
@@ -271,6 +310,7 @@
 				B1818EF32099B021000F96E2 /* ClassTests.swift in Sources */,
 				B1818EE3209993A6000F96E2 /* MethodTests.swift in Sources */,
 				B1AB377E209B074B00ABB5B2 /* ARCTest.swift in Sources */,
+				B1F0EC4920A2C77B0088777B /* HigherOrderFunctionTests.swift in Sources */,
 				B1AB376E209AA8B900ABB5B2 /* EnumStructTest.swift in Sources */,
 				B1AB3772209AB62600ABB5B2 /* ProtocolTest.swift in Sources */,
 			);
