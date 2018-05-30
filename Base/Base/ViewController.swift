@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let v =  BezierView(frame: CGRect(x: 20, y: 20, width: 300, height: 30))
+        
+        v.layer.cornerRadius = 10.0;
+        
+        v.layer.masksToBounds = true
+        
+        v.backgroundColor = .blue
+        
+        view.addSubview(v)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
